@@ -1,0 +1,1 @@
+def get_topic_id(msg): return getattr(msg, 'reply_to_top_id', None)
